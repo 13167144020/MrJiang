@@ -1,0 +1,27 @@
+<!--视频-->
+<video src="https://v.qq.com/x/page/h0327dc036v.html"   controls ></video>
+<!--科室选择-->
+<view class="choiceDepartment">
+    <text class="department">消化内科</text>
+    <text class="department">手术课</text>
+    <text class="department">眼科</text>
+    <text class="department">烧伤创伤科</text>
+    <text class="department">耳喉鼻科</text>
+    <text class="department">普外科</text>
+    <text class="department">肝胆外科</text>
+    <text class="department">神经外科</text>
+</view>
+<view class="divide"></view>
+<!--介绍-->
+<view class="introduceYykoo">
+    <view class="about">
+        <image src="../../imgs/about.png" class="introduceIcon"></image>
+        <text class="introduceText">关于有医靠</text>
+        <image src="../../imgs/next_icons.png" class="introduceNext"></image>
+    </view>
+    <view class="doubt">
+        <image src="../../imgs/doubt.png" class="introduceIcon"></image>
+        <text class="introduceText">预约前疑问</text>
+        <image src="../../imgs/next_icons.png" class="introduceNext"></image>
+    </view>
+</view>

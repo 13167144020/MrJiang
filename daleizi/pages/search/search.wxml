@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<import src="/pages/doctorList/doctorList.wxml" />
+<view class="search ub">
+  <view class="searchInput ub-f1">
+    <input type="text" bindconfirm="searchData" placeholder="请搜索医院、疾病、科室、医生" confirm-type="search" />
+  </view>
+  <view class="undo" bindtap="handlerCancel">取消</view>
+</view>
+<view class="doctorList">
+  <block wx:for="{{doctorList}}" wx:key="doctorList">
+    <template is="doctor" data="{{item}}" />
+  </block>
+</view>

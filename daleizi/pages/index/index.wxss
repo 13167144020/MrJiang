@@ -1,0 +1,125 @@
+/* pages/index/index.wxss */
+.indexIconTop{
+    width: 100%;
+    padding: 20rpx 30rpx 10rpx;
+    background: #fff;
+    height: 230rpx;
+    border-top: 1rpx #ebebeb solid;
+}
+
+.indexIconTop image{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    width: 100%;
+    background: #fff;
+    padding: 0 30rpx;
+    height: 240rpx;
+}
+
+.banner swiper{
+    width: 100%;
+    height: 100%;
+    border-top: 1rpx #ebebeb solid;
+    border-bottom: 1rpx #ebebeb solid;
+}
+
+.banner image{
+    width: 100%;
+    height: 100%;
+}
+
+.ask{
+    height: 80rpx;
+    padding: 0 30rpx;
+    text-align: right;
+    background: url('http://hybrid.yykaoo.com/imgs/text_ask.png') no-repeat 30rpx center #fff;
+    background-size: auto 43rpx;
+}
+
+.ask text{
+    display: inline-block;
+    font-size: 24rpx;
+    line-height: 80rpx;
+    color: #666666;
+    padding-right: 30rpx;
+    background: url('http://hybrid.yykaoo.com/imgs/next_dta.png') no-repeat right center #fff;
+    background-size: auto 26rpx;
+}
+
+.inquiryAndDepartment{
+    margin-top: 20rpx;
+    background: #fff;
+    padding: 0 30rpx;
+}
+
+.inquiry{
+    height: 94rpx;
+}
+
+.search{
+    font-size: 24rpx;
+    padding: 0 50rpx;
+    height: 56rpx;
+    border: 1rpx solid #ebebeb;
+    color: #56beb8;
+    line-height: 54rpx;
+    text-align: center;
+    background: #f7f7f7;
+    border-radius: 28rpx;
+    margin: 20rpx 0;
+}
+
+.search text{
+    display: inline-block;
+    height: 100%;
+    padding-left: 40rpx;
+    background: url("http://hybrid.yykaoo.com/imgs/search.jpg") no-repeat left center; 
+    background-size: auto 26rpx;
+}
+
+.doctor{
+    padding: 24rpx 0 30rpx;
+}
+.doctor text:first-child{
+    font-size: 30rpx;
+    color: #333333;
+    font-weight: 700;
+}
+
+.doctor text:last-child{
+    font-size: 42rpx;
+    color: #f55c04;
+}
+
+.department{
+    width: 100%;
+    background: #fff;
+    padding: 20rpx 0;
+    border-top: 1rpx solid #ebebeb;
+}
+
+.dept{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.deptImage{
+    padding-top: 20rpx;
+}
+
+.deptImage image{
+    height: 80rpx;
+    width: 80rpx;
+}
+
+.deptName{
+    font-size: 24rpx;
+    color: #666;
+    padding: 15rpx 0 20rpx;
+}
+
+

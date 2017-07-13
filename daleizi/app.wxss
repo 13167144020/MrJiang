@@ -1,0 +1,173 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+page {
+  background-color: #f7f7f7;
+}
+
+view, swiper {
+  box-sizing: border-box;
+}
+
+.ub {
+  position: relative;
+  display: -webkit-box;
+  display: box;
+}
+
+.ub-v {
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.ub-f1 {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+}
+
+.bt {
+  border-top: 1rpx solid #ebebeb;
+}
+
+.bb {
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+/* doctorList start */
+
+.doctorList {
+}
+
+.doctorView {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1rpx solid #ededed;
+  border-bottom: 1rpx solid #ededed;
+  margin-bottom: 20rpx;
+}
+
+.doctorPic {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: url('http://hybrid.yykaoo.com/imgs/defaultImage.jpg') no-repeat center;
+  background-size: 100% 100%;
+}
+
+.doctorImage {
+  display: block;
+  width: 100%;
+  height: 320rpx;
+}
+
+.doctorTitle {
+  width: 100%;
+  height: 80rpx;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 242rpx;
+  color: #fff;
+  line-height: 80rpx;
+  padding-left: 30rpx;
+}
+
+.doctorName {
+  font-size: 30rpx;
+}
+
+.spot {
+  display: inline-block;
+  color: #fff;
+  padding: 0 10rpx;
+}
+
+.doctorDepart {
+  margin-right: 15rpx;
+}
+
+.doctorDepart, .physician {
+  font-size: 28rpx;
+}
+
+.doctorInfo {
+  padding: 0 30rpx;
+}
+
+.hospital {
+  font-size: 26rpx;
+  color: #333;
+  line-height: 86rpx;
+  display: block;
+  font-weight: bold;
+}
+
+.doctorIntroduce {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 36rpx;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.inquiry {
+  padding: 30rpx 30rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  padding: 10rpx 0;
+}
+
+.numberIcon {
+  width: 22rpx;
+  height: 22rpx;
+  margin-right: 20rpx;
+}
+
+.numberText {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.bespeakBtn {
+  width: 250rpx;
+  height: 70rpx;
+  background-color: #53c7c0;
+  border-radius: 10rpx;
+  text-align: center;
+  position: relative;
+}
+
+.btnIcon {
+  width: 37rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 50%;
+  left: 38rpx;
+  transform: translateY(-50%);
+}
+
+.btnText {
+  font-size: 28rpx;
+  color: #fff;
+  margin-left: 40rpx;
+  line-height: 70rpx;
+}
+
+/* doctorList end */

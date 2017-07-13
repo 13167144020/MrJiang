@@ -1,0 +1,109 @@
+/* pages/pay/pay.wxss */
+/*医生信息*/
+.doctorBg{
+     background: #f7f7f7;
+     padding:20rpx 0;
+     position: relative;
+     font-size:24rpx;
+}
+.doctorInfo{
+    padding:32rpx 30rpx;
+    background:#fff;
+    display: flex;
+}
+.doctorInfo .doctorPhoto{
+    width:120rpx;
+    height:120rpx;
+    border-radius: 50%;
+    background:#f00;
+    margin-right:30rpx;
+}
+.doctorInfo .textInfo{
+    margin-top:28rpx;
+}
+.doctorInfo .textInfo .doctorName{
+    font-size:32rpx;
+    color:#333;
+    margin-right:20rpx;
+}
+.doctorInfo .textInfo .doctorJob{
+    color:#333;
+}
+.doctorInfo .textInfo .doctorHospital,.doctordep{
+    color:#999;
+    margin-right:18rpx;
+}
+.doctorBg .infoTwo{
+    margin-top:20rpx;
+}
+/*支付信息*/
+.orderNum{
+    background:#f7f7f7;
+}
+.orderItem{
+    background:#fff;
+    padding-left:30rpx;
+}
+.orderItem .items{
+    font:26rpx/90rpx "";
+    color:#333;
+    display: flex;
+    justify-content: space-between;
+    padding-right:30rpx;
+}
+.orderItem .items .fr{
+    color:#666;
+}
+.orderItem .items .numMoney{
+    color:#FF4E4E;
+    font-weight: 600;
+}
+/*支付方式*/
+.payRoute{
+    background:#fff;
+    margin-top:20rpx;
+}
+.payRoute .route{
+    padding:30rpx 30rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.payRoute .route .fl{
+    display: flex;
+    justify-content: space-around;
+}
+.payRoute .route .fl image{
+    width:46rpx;
+    height:46rpx;
+    margin-top:10rpx;
+    margin-right:30rpx;
+}
+.payRoute .route .fl text{
+    display: block;
+    font-size:30rpx;
+    font-weight: 500;
+}
+.payRoute .route .fl text.tip{
+    font-size:22rpx;
+    margin-top:12rpx;
+}
+.payRoute .route label{
+    width:40rpx;
+    height:40rpx;
+    border:1px solid #999;
+    border-radius: 50%;
+    margin-top:10rpx;
+}
+.payRoute .route image{
+    width:42rpx;
+    height:42rpx;
+    border-radius: 50%;
+    margin-top:10rpx;
+}
+button{
+   background:#FF4E4E;
+   margin:330rpx 30rpx 30rpx;
+   font:34rpx;
+   color:#fff;
+}
+

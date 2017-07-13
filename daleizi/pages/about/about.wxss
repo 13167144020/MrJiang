@@ -1,0 +1,36 @@
+/* pages/about/about.wxss */
+.about{
+    border-top: 1rpx solid #ebebeb;
+  background-color: #FFFFFF;
+  /*height: 2000rpx;*/
+}
+/*图标*/
+.yykao_icon{
+   width: 141rpx;
+   height: 140rpx;
+   padding-top: 60rpx; 
+   padding-left: 310rpx;
+}
+/*文字内容部分*/
+.referral{
+  width: 681rpx;
+  height: 266rpx;
+ margin-left: 31rpx;
+ margin-top: 66rpx;
+}
+.referral>text{
+font-family: PingFangSC-Regular;
+font-size: 28rpx;
+line-height: 48rpx;
+color: #333333;
+letter-spacing:4rpx;
+}
+
+/*视频*/
+video{
+
+width: 690rpx;
+  height: 340rpx;
+  margin-left: 30rpx;
+  margin-top: 150rpx;
+}

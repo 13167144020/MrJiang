@@ -1,0 +1,47 @@
+<!--pages/index/index.wxml-->
+<view class="index">
+
+  <!-- 快速判断症状 -->
+  <view class="indexIconTop">
+    <image src="../../imgs/sev.png"></image>
+  </view>
+
+  <!-- banner -->
+  <view class="banner">
+    <swiper>
+      <block wx:for="{{banner}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item.bannerSpecialCoverUrl}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 大家都在问 -->
+  <view class="ask">
+    <text>"外地到上海看病一次要花多少钱？"</text>
+  </view>
+
+  <!-- 视频问诊及科室 -->
+  <view class="inquiryAndDepartment">
+    <view class="inquiryIndex ub">
+      <view class="ub-f1 doctor">
+        <text>找专家</text>
+        <text>视屏问诊</text>
+      </view>
+      <view class="search" bindtap="searchDoctor">
+        <text>搜索医院/专家</text>
+      </view>
+    </view>
+    <view class="department">
+      <view class="dept" wx:for="{{departmentList}}" wx:key="department">
+        <navigator url="/pages/department/department?departmentId={{item.departmentId}}">
+          <view class="deptImage">
+            <image src="{{item.logo}}"></image>
+          </view>
+          <view class="deptName">{{item.name}}</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

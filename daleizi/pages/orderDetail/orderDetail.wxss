@@ -1,0 +1,187 @@
+/* pages/orderList/orderList.wxss */
+page{
+    background:#fff;
+}
+.title{
+    font:500 30rpx/90rpx "";
+    display: flex;
+    justify-content:space-around;
+}
+.title text{
+    color:#666;
+    width:190rpx;
+    text-align: center;
+    display: inline-block;
+}
+.title .choose{
+    border-bottom:4rpx solid #66CDC7;
+    color:#66CDC7;
+}
+.orderState{
+    margin-top:54rpx;
+}
+
+/*订单详情1*/
+.orderRecord{
+    margin-left:74rpx;
+    padding:30rpx 32rpx 0 64rpx;
+    border-left:1rpx solid #66CDC7;
+}
+image.last_icon{
+    width:52rpx;
+    height:52rpx;
+    position:absolute;
+    top:0;
+    left:-90rpx;
+}
+.orderRecord .itemOne{
+    display: flex;
+    justify-content: space-between;
+    font-size:32rpx;
+    color:#333;
+    position: relative;
+}
+.orderRecord .itemOne label{
+    width:16rpx;
+    height:16rpx;
+    background: #66CDC7;
+    border-radius: 50%;
+    position:absolute;
+    top:16rpx;
+    left:-70rpx;
+}
+.orderRecord .itemOne .fl{
+    width:412rpx;
+}
+.orderRecord .itemOne .fr{
+    font-size: 22rpx;
+    color:#999;
+}
+.orderRecord .itemTwo{
+    margin-top:20rpx;
+    font-size: 24rpx;
+    color:#999;
+    padding-bottom: 30rpx;
+}
+/*订单详情2*/
+.orderDetail{
+    width:100%;
+    font-size:24rpx;
+}
+/*医生简介*/
+.doctorBg{
+     background: #f7f7f7;
+     padding:20rpx 0;
+     position: relative;
+}
+.doctorInfo{
+    padding:32rpx 30rpx;
+    background:#fff;
+    display: flex;
+}
+.doctorInfo .doctorPhoto{
+    width:120rpx;
+    height:120rpx;
+    border-radius: 50%;
+    background:#f00;
+    margin-right:30rpx;
+}
+.doctorInfo .textInfo{
+    margin-top:28rpx;
+}
+.doctorInfo .textInfo .doctorName{
+    font-size:32rpx;
+    color:#333;
+    margin-right:20rpx;
+}
+.doctorInfo .textInfo .doctorJob{
+    color:#333;
+}
+.doctorInfo .textInfo .doctorHospital,.doctordep{
+    color:#999;
+    margin-right:18rpx;
+}
+.doctorBg .arrows{
+    width:18rpx;
+    height:30rpx;
+    position:absolute;
+    top:100rpx;
+    right:30rpx;
+}
+/*病例*/
+.caseDetail{
+    background:#fff;
+    padding:32rpx 0 38rpx 30rpx;
+    color:#666;
+}
+.caseDetail .patientInfo .infoOne{
+    display: flex;
+    justify-content: space-between;
+}
+.caseDetail .patientInfo .patientName{
+    font-size:38rpx;
+    color:#66CDC7;
+    margin-right:32rpx;
+}
+.caseDetail .patientInfo .relationship{
+    margin-top:20rpx;
+}
+.caseDetail .patientInfo .createTime{
+    color:#999;
+    margin-top:20rpx;
+    margin-right:30rpx;
+}
+.textInfo .infoTwo{
+    margin-top:24rpx;
+}
+.infoTwo text{
+    margin-right:32rpx;
+}
+.caseDetail .discript{
+    padding-top:30rpx;
+    position: relative;
+}
+.caseDetail .infoTwo{
+    margin:26rpx 0;
+}
+.caseDetail .discript .illness{
+    color:#333;
+    font-size:28rpx;
+}
+.caseDetail .discript .discriptDet{
+    margin-top:28rpx;
+}
+.caseDetail .discript .arrows{
+    width:18rpx;
+    height:30rpx;
+    position:absolute;
+    top:60rpx;
+    right:30rpx;
+}
+
+.orderNum{
+    background:#f7f7f7;
+    padding-top:20rpx;
+    padding-bottom:300rpx;
+}
+.orderItem{
+    background:#fff;
+    padding-left:30rpx;
+}
+.orderItem .items{
+    font:26rpx/90rpx "";
+    color:#666;
+    display: flex;
+    justify-content: space-between;
+    padding-right:30rpx;
+}
+.orderItem .items .fr{
+    color:#999;
+}
+.orderItem .items .num{
+    font-weight: 600;
+}
+.orderItem .items .numMoney{
+    color:#FF4E4E;
+    font-weight: 600;
+}

@@ -1,0 +1,104 @@
+
+<!--pages/orderList/orderList.wxml-->
+<page>
+  <view class="title bb bt">
+    <text class="choose">订单状态</text>
+    <text>订单详情</text>
+  </view>
+
+  <!--订单状态-->
+  <view class="orderState">
+    <view class="orderRecord">
+      <view class="itemOne">
+        <label></label>
+        <text class="fl">支付成功</text>
+        <text class="fr">3月29日 11:22</text>
+      </view>
+      <view class="itemTwo bb">专家已确认会诊时间</view>
+    </view>
+    <view class="orderRecord">
+      <view class="itemOne">
+        <label></label>
+        <text class="fl">支付成功</text>
+        <text class="fr">3月29日 11:22</text>
+      </view>
+      <view class="itemTwo bb">专家已确认会诊时间</view>
+    </view>
+    <view class="orderRecord">
+      <view class="itemOne">
+        <image class="last_icon" src="../../imgs/order_icon.png"></image>
+        <text class="fl">支付成功</text>
+        <text class="fr">3月29日 11:22</text>
+      </view>
+      <view class="itemTwo bb">专家已确认会诊时间</view>
+    </view>
+  </view>
+
+  <!--订单详情-->
+  <view class="orderDetail" hidden="true">
+  <!--医生简介-->
+    <view class="doctorBg">
+      <view class="doctorInfo bb bt">
+        <image class="doctorPhoto" src="../../imgs/order_icon.png"></image>
+        <view class="textInfo">
+            <view class="infoOne">
+                <text class="doctorName">张杰</text>
+                <text class="doctorJob">福教书</text>
+            </view>
+            <view class="infoTwo">
+                <text class="doctorHospital">上海市华山医院</text>
+                <text class="doctordep">普外科</text>
+            </view>
+        </view>
+      </view>
+      <image class="arrows" src="../../imgs/arrows.png"></image>
+    </view>
+    <!--病例-->
+    <view class="caseDetail bt bb">
+        <view class="patientInfo bb">
+            <view class="infoOne">
+                <view>
+                    <text class="patientName">王耀华</text>
+                    <text class="relationship">本人</text>
+                </view>
+                <text class="createTime">12月11日</text>
+            </view>
+            <view class="infoTwo">
+                <text>男</text>
+                <text>22周岁</text>
+                <text>上海市浦东新区</text>
+            </view>
+        </view>
+        <view class="discript">
+            <view class="illness">病情描述</view>
+            <view class="discriptDet">的会变得很比较方便v基督教南方俊峰</view>
+            <image class="arrows" src="../../imgs/arrows.png"></image>
+        </view>
+    </view>
+    <!--订单记录-->
+        <view class="orderNum">
+            <view class="orderItem bt bb">
+                <view class="items bb">
+                    <text>订单号</text>
+                    <text class="fr">200999394940</text>
+                </view>
+                <view class="items bb">
+                    <text>下单时间</text>
+                    <text class="fr">2088年3月8日 17时33分</text>
+                </view>
+                <view class="items bb">
+                    <text>服务内容</text>
+                    <text class="fr">200999394940</text>
+                </view>
+                <view class="items bb">
+                    <text>支付方式</text>
+                    <text class="fr">200999394940</text>
+                </view>
+                <view class="items">
+                    <text class="num">订单总额</text>
+                    <text class="numMoney">¥500</text>
+                </view>
+            </view>
+         </view>
+  </view>
+</page>

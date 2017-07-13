@@ -1,0 +1,42 @@
+.query{
+  background-color: #FFFFFF;
+}
+/*banner*/
+.pic{
+  width: 750rpx;
+  height: 340rpx;
+}
+
+/*疑问1*/
+.query_1{
+  width: 604rpx;
+  height: 52rpx;
+  background-color: #2CD2CE;
+  border-radius: 8px ;
+  margin-top: 66rpx;
+  margin-left: 73rpx;
+}
+.text_01{
+font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  /*text-align: center;*/
+  padding-left: 139rpx;
+  /*padding-bottom: 11rpx;*/
+}
+.info_t{
+  width: 599rpx;
+  /*height: 99rpx;*/
+  /*background-color: rebeccapurple;*/
+  margin-top: 38rpx;
+  margin-left: 74rpx;
+}
+.info{
+  font-size: 26rpx;
+  line-height: 36rpx;
+  letter-spacing: 1rpx;
+   font-family: PingFangSC-Regular;
+   color: #333333;
+}
+

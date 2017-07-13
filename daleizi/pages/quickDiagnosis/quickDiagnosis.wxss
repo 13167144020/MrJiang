@@ -1,0 +1,130 @@
+/*banner*/
+.refer{
+  background-color: #ffffff;
+}
+.referpic{
+  width: 750rpx;
+  height: 240rpx;
+}
+/*范围咨询*/
+.scope{
+  float: left;
+}
+.scopepic{
+width: 72rpx;
+height: 50rpx;
+margin-top: 108rpx;
+margin-left: 140rpx;
+}
+.scope_t{
+  display: block;
+  margin-left: 109rpx;
+  margin-top: 25rpx;
+  font-family: Microsoft YaHei;
+  font-size: 32rpx;
+  line-height: 41rpx;
+  color: #666666;
+}
+/*分割线*/
+.linepic{
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 126rpx;
+  margin-left: 90rpx;
+  float: left;
+}
+
+/*咨询时间*/
+.time{
+
+  /*background-color: rebeccapurple;*/
+  float: right;
+  /*display: block;*/
+}
+.timepic{
+width: 51rpx;
+height: 51rpx;
+margin-top: 108rpx;
+margin-left: 44rpx;
+}
+.time_t{
+  display: block;
+  font-family: Microsoft YaHei;
+  font-size: 32rpx;
+  line-height: 41rpx;
+  color: #666666;
+  margin-right: 111rpx;
+  margin-top: 25rpx;
+}
+/*咨询范围详情*/
+.details{
+  padding-top: 96rpx;
+}
+.details_t{
+  font-family: Microsoft YaHei;
+  font-size: 24rpx;
+  line-height: 41rpx;
+  color: #666666;
+}
+.m74{
+  margin-left: 74rpx;
+}
+.m60{
+  margin-left: 60rpx;
+}
+.m86{
+  margin-left: 86rpx;
+}
+/*咨询时间详情*/
+
+.specific_t{
+ font-family: Microsoft YaHei;
+  font-size: 24rpx;
+  line-height: 41rpx;
+  color: #666666;
+  width:144rpx;
+}
+.specific{
+  padding-top: 119rpx;
+}
+.s{
+  letter-spacing: 2rpx;
+}
+.m9{
+  margin-left: 9rpx;
+}
+/*电话按钮*/
+.btn{
+  height: 99rpx;
+  width: 690rpx;
+  background-color: #66cdc7;
+  border-radius: 8rpx;
+  position: relative;
+  margin-top: 720rpx;
+  margin-left: 23rpx; 
+}
+.phonepic{
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  top: 32rpx;
+  left: 205rpx;
+}
+.call_t{
+  font-size: 36rpx;
+  line-height: 48rpx;
+  color: #ffffff;
+  margin-left: 270rpx;
+ padding-top: 25rpx;
+ display: block;
+}
+/*点击下载*/
+.download_t{
+  text-decoration: underline;
+  color: #ff6f6f;
+  font-size: 24rpx;
+  padding-top: 67rpx;
+  display: block;
+  text-align: center;
+  padding-bottom: 40rpx;
+}

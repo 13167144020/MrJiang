@@ -1,0 +1,23 @@
+<view class="caseHistory">
+    <view class="caseInfo">
+        <view class="essentialInfo">
+            <text class="caseNema">王耀华</text>
+            <text class="nexus">本人</text>
+            <text class="time">12月11日</text>
+        </view>
+        <text class="gender">男</text>
+        <text class="age">22周岁</text>
+        <text class="region">上海是浦东新区</text>
+    </view>
+    <view class="caseDepict">
+        <view class="depictTitle">病情描述</view>
+        <text class="depictTxt">2009.12.16 因“右眼疼痛、视物模糊在一周”入院常物模糊在一周”入院常</text>
+        <image src="../../imgs/arrows.png" class="caseNext"></image>
+    </view>
+</view>
+<view class="newAdd">
+    <view class="addBlock">
+        <image src="../../imgs/new_add.png" class="addPic"></image>
+        <text class="addTxt">为<text class="red">新的患者</text>添加一个病历卡</text>
+    </view>
+</view>

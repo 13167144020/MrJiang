@@ -1,0 +1,49 @@
+<!--banner-->
+<view class="refer">
+  <image src="../../imgs/refer_pic.png" class="referpic"></image>
+  <!--咨询范围-->
+  <view class="scope">
+    <image src="../../imgs/scopepic.png" class="scopepic"></image>
+    <text class="scope_t">咨询范围
+    </text>
+    <view class="details">
+      <text class="details_t m74">确认病情所属科室
+      </text>
+      <text class="details_t m60">适合的医院以及专家
+      </text>
+      <text class="details_t m86">需要注意的事项
+      </text>
+    </view>
+  </view>
+  <!--分割线-->
+  <view class="line">
+    <image src="../../imgs/linepic.png" class="linepic"></image>
+  </view>
+
+  <!--咨询时间-->
+  <view class="time">
+    <image src="../../imgs/timepic.png" class="timepic"></image>
+    <text class="time_t">咨询时间
+    </text>
+
+    <view class="specific">
+      <text class="specific_t m9">周一到周日
+      </text>
+      <text class="specific_t s">9:00-20:00
+      </text>
+    </view>
+
+  </view>
+  <!--拨打电话按钮-->
+  <view class="btn">
+    <image src="../../imgs/phone.png" class="phonepic"></image>
+    <text class="call_t">拨打咨询电话
+    </text>
+  </view>
+
+  <!--点击下载-->
+  <view class="download">
+    <text class="download_t">请点击下载有医靠APP，获在线咨询资格。
+    </text>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<!--医生列表-->
+<template name="doctor">
+  <view class="doctorView">
+    <!--医生封面-->
+    <view class="doctorPic">
+      <image src="{{item.doctorCoverUrl}}" class="doctorImage"></image>
+      <view class="doctorTitle">
+        <text class="doctorName">{{item.realName}}</text>
+        <text class="spot">·</text>
+        <text class="doctorDepart">{{item.departmentName}}</text>
+        <text class="physician">{{item.doctorTitle}}</text>
+      </view>
+    </view>
+    <!--医生介绍-->
+    <view class="doctorInfo">
+      <text class="hospital">{{item.hospitalName}}</text>
+      <text class="doctorIntroduce">擅长：{{item.specialty}}</text>
+    </view>
+    <!--咨询人数，预约问诊-->
+    <view class="inquiry">
+      <view class="number">
+        <image src="../../imgs/number_icon.png" class="numberIcon"></image>
+        <text class="numberText">{{item.completedOrderNum}}人咨询过</text>
+      </view>
+      <view class=" bespeakBtn">
+        <navigator url="/pages/doctorDetail/doctorDetail?sn={{item.sn}}">
+          <image src="../../imgs/video_icons.png" class="btnIcon"></image>
+          <text class="btnText">查看详情</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>
+
+
+<view class="doctorList">
+  <template is="doctor"></template>
+  <template is="doctor"></template>
+</view>

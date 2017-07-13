@@ -1,0 +1,95 @@
+/* pages/paySuccess/paySuccess.wxss */
+
+.payTop {
+  background: #fff;
+  padding-top: 50rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  color: #666;
+  padding-bottom:54rpx;
+}
+
+.payInfo {
+  position: relative;
+}
+
+.payInfo image {
+  width: 466rpx;
+  height: 448rpx;
+}
+
+.orderNum {
+  position: absolute;
+  left: 0rpx;
+  top: 420rpx;
+  width: 100%;
+}
+
+.payTime {
+  display: block;
+  text-align: center;
+}
+
+.chooseBtn {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 136rpx;
+}
+
+.chooseBtn button {
+  font-size: 28rpx;
+  line-height: 68rpx;
+  width:208rpx;
+}
+
+.btn1 {
+  color: #333;
+  background: #fff;
+}
+
+.btn2 {
+  background: #66cdc7;
+  color: #fff;
+  border:none;
+}
+.instructor{
+    margin-top:20rpx;
+    width:100%;
+    background:#fff;
+    position: relative;
+    padding:0 30rpx;
+    padding-bottom:122rpx;
+}
+.line{
+    width:64rpx;
+    height:71rpx;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.title{
+    margin-top:52rpx;
+    padding-left:168rpx;
+    padding-bottom:50rpx;
+    font-size: 32rpx;
+    color:#FF4E4E;
+    font-weight: 600;
+}
+.bulb{
+   width: 32rpx;
+   height:31rpx;
+   margin-right:22rpx;
+}
+.vid{
+    width:100%;
+    height:340rpx;
+}
+.instructorPic{
+    margin-top:54rpx;
+    width:660rpx;
+    margin-left:-30rpx;
+    height:952rpx;
+}

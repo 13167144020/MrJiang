@@ -1,0 +1,112 @@
+/* pages/orderList/orderList.wxss */
+
+.title {
+  font: 500 30rpx/90rpx "";
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.title text {
+  color: #666;
+  width: 190rpx;
+  text-align: center;
+  display: inline-block;
+}
+
+.title .choose {
+  border-bottom: 4rpx solid #66cdc7;
+}
+
+.orderList {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.doctorBg {
+  position: relative;
+  font-size: 24rpx;
+}
+
+.doctorInfo {
+  padding: 32rpx 30rpx;
+  background: #fff;
+  display: flex;
+}
+
+.doctorInfo .doctorPhoto {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: #f00;
+  margin-right: 30rpx;
+}
+
+.doctorInfo .textInfo {
+  margin-top: 28rpx;
+}
+
+.doctorInfo .textInfo .infoTwo {
+  margin-top: 20rpx;
+}
+
+.doctorInfo .textInfo .doctorName {
+  font-size: 32rpx;
+  color: #333;
+  margin-right: 20rpx;
+}
+
+.doctorInfo .textInfo .doctorJob {
+  color: #333;
+}
+
+.doctorInfo .textInfo .doctorHospital, .doctordep {
+  color: #999;
+  margin-right: 18rpx;
+}
+
+.doctorBg .arrows {
+  width: 18rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 80rpx;
+  right: 30rpx;
+}
+
+.orderState1 {
+  line-height: 64rpx;
+}
+
+.orderState1 button.payBtn {
+  width: 180rpx;
+  display: inline-block;
+  background: #ff4e4e;
+  color: #fff;
+  line-height: 68rpx;
+  font-size: 26rpx;
+  margin: 0rpx;
+}
+
+.stateFont {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 64rpx;
+  display: flex;
+  padding: 22rpx 30rpx;
+}
+.dif{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.modifyCase {
+  background: #66cdc7;
+  color: #fff;
+  width: 180rpx;
+  line-height: 68rpx;
+  font-size: 26rpx;
+  margin-right: 0rpx;
+}
+.outDate{
+    margin-right:16rpx;
+}

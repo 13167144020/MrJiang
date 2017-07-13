@@ -1,0 +1,22 @@
+
+<!--pages/paySuccess/paySuccess.wxml-->
+<view class="payTop bb bt">
+  <view class="payInfo">
+    <image src="../../imgs/paySuccess.png"></image>
+    <text class="orderNum">订单号：68999900098</text>
+  </view>
+  <text class="payTime">支付时间：2016年9月23日 16：30</text>
+  <view class="chooseBtn">
+    <button class="btn1">返回首页</button> 
+    <button class="btn2">订单详情</button>
+  </view>
+</view>
+<view class="instructor bt">
+    <image class="line" src="../../imgs/line.png"></image>
+    <view class="title">
+        <image class="bulb" src="../../imgs/bulb.png"></image>
+        <text>专家如何与你视频？</text>
+    </view>
+    <video class="vid" src="src" ></video>
+    <image class="instructorPic" src="../../imgs/instructorPic.png"></image>
+</view>

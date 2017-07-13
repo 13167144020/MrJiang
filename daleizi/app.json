@@ -1,0 +1,47 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/pay/pay",
+    "pages/orderDetail/orderDetail",
+    "pages/orderList/orderList", 
+    "pages/paySuccess/paySuccess",
+    "pages/search/search",
+    "pages/department/department",
+    "pages/doctorList/doctorList",
+    "pages/doctorDetail/doctorDetail",
+    "pages/caseList/caseList",
+    "pages/login/login",
+    "pages/caseAdd/caseAdd",
+    "pages/about/about",
+    "pages/ask/ask",
+    "pages/quickDiagnosis/quickDiagnosis",
+    "pages/orderRefer/orderRefer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有医靠",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "iconPath": "imgs/dashboard.png",
+        "selectedIconPath": "imgs/dashboard-click.png",
+        "pagePath": "pages/index/index",
+        "text": "视频问诊"
+      }, {
+        "iconPath": "imgs/list.png",
+        "selectedIconPath": "imgs/list-click.png",
+        "pagePath": "pages/orderList/orderList",
+        "text": "我的预约"
+      }
+    ]
+  },
+  "debug": true
+}

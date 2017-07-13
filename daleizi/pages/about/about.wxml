@@ -1,0 +1,11 @@
+
+<view class="about">
+<image src="../../imgs/yyk.png" class="yykao_icon"></image>
+<!--介绍-->
+<view class="referral">
+<text>通过远程视频咨询名医、专家预约等服务，解决异地求医者到北上广就医难的问题；整合高端体检、基因检测、美国泰国的试管婴儿技术、国际医疗等第三方服务资源，把高端的名医资源和医疗健康服务资源，延伸到城镇乡村。为患者提供线上线下一体化医疗服务。</text>
+</view>
+
+<!--视频-->
+<video src="http://file.yykoo.cn/yykoo.mp4" controls="controls" />
+</view>

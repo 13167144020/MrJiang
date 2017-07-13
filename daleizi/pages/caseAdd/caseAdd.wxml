@@ -1,0 +1,116 @@
+
+<!--banner-->
+<image src="../../imgs/case_pic.jpg" class="casePic"></image>
+
+<!--详细信息-->
+<view class="addInfo">
+  <text class="infoTitle">1.填写基本信息</text>
+
+  <!--姓名-->
+  <view class="addList">
+    <view class="listInfo">
+      <text class="listTitle">姓名</text>
+      <label>
+        <input class="listInput" name="name" placeholder="请输入姓名" />
+      </label>
+    </view>
+    <image src="../../imgs/arrows.png" class="addNext"></image>
+  </view>
+
+  <!--性别-->
+  <view class="addList">
+    <view class="listInfo">
+      <text class="listTitle">性别</text>
+      <picker mode="selector" range="{{arraySex}}" value="{{sex}}" bindchange="listenerPickerSex">
+        <text class="listTxt">{{arraySex[sex]}}</text>
+      </picker>
+    </view>
+    <image src="../../imgs/arrows.png" class="addNext"></image>
+  </view>
+
+  <!--年龄-->
+  <view class="addList">
+    <view class="listInfo">
+      <text class="listTitle">年龄</text>
+      <picker mode="selector" range="{{arrayAge}}" value="{{age}}" bindchange="listenerPickerAge">
+        <text class="listTxt">{{arrayAge[age]}}</text>
+      </picker>
+    </view>
+    <image src="../../imgs/arrows.png" class="addNext"></image>
+  </view>
+
+  <!--关系-->
+  <view class="addList">
+    <view class="listInfo">
+      <text class="listTitle">您与患者的关系</text>
+      <picker mode="selector" range="{{arrayNexus}}" value="{{nexus}}" bindchange="listenerPickerNexus">
+        <text class="listTxt">{{arrayNexus[nexus]}}</text>
+      </picker>
+    </view>
+    <image src="../../imgs/arrows.png" class="addNext"></image>
+  </view>
+
+  <!--地址-->
+  <view class=" addList addListTwo">
+    <view class="listInfo" bindtap="showDistpicker">
+      <text class="listTitle">患者居住城市</text>
+      <view class="classname">
+        <view class="rightArea" wx:if="{{provinceName[provinceSelIndex]}}">{{provinceName[provinceSelIndex]}}{{cityName[citySelIndex]}}{{districtName[districtSelIndex]}}</view>
+        <view class="listTxt rightArea" wx:else>请选择您所在地区</view>
+      </view>
+    </view>
+    <image src="../../imgs/arrows.png" class="addNext"></image>
+  </view>
+</view>
+<view style="height: 0; width: 0;">
+  <input type="text" name="province" value="{{provinceName[provinceSelIndex]}}" class="hidden" />
+  <input type="text" name="city" value="{{cityName[citySelIndex]}}" class="hidden" />
+  <input type="text" name="district" value="{{districtName[districtSelIndex]}}" class="hidden" />
+</view>
+
+<!--病情描述-->
+<view class="addDepict">
+  <text class="infoTitle infoTitleTwo">2.填写病情描述</text>
+  <textarea type="text" name="descript" maxlength="-1" placeholder-style="color:#c2c2c2;" placeholder="请在此输入文字说明（如：症状、病情、持续时间、是否有家庭遗传疾病史、药物过敏等...）" value="{{descript}}" />
+</view>
+
+<!--添加病历报告-->
+<view class="addInspect">
+  <text class="infoTitle infoTitleTwo">3.添加病例报告</text>
+  <view class="addBlock">
+    <image src="../../imgs/new_add.png" class="addPic"></image>
+    <text class="addTil">上传病历报告</text>
+    <text class="addTxt">如CT、心电图、肿瘤指标、出院小结等</text>
+  </view>
+
+  <!--支付btn-->
+  <button>保存并支付</button>
+</view>
+
+<!--地址三级联动-->
+<view class="{{showDistpicker ? '' : 'hidden'}} {{showOpacity ? 'show' : ''}}">
+  <view class="distpicker">
+    <view class="distpicker-btn">
+      <view class="distpicker-cancel-btn" bindtap="distpickerCancel">取消</view>
+      <view class="distpicker-sure-btn" bindtap="distpickerSure">确定</view>
+    </view>
+    <picker-view indicator-style="height: 40px;" class="distpicker-content" value="{{value}}" bindchange="changeArea">
+
+      <!-- 省 -->
+      <picker-view-column>
+        <view wx:for="{{provinceName}}" wx:key="province" class="area-item">{{item}}</view>
+      </picker-view-column>
+
+      <!-- 市 -->
+      <picker-view-column>
+        <view wx:for="{{cityName}}" wx:key="city" class="area-item">{{item}}</view>
+      </picker-view-column>
+
+      <!-- 区 -->
+      <picker-view-column>
+        <view wx:for="{{districtName}}" wx:key="district" class="area-item">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
+<view class="mask" catchtap="distpickerCancel" hidden="{{!showDistpicker}}"></view>

@@ -1,0 +1,95 @@
+<view class="ask">
+  <!--banner-->
+  <image src="../../imgs/ask_01.png" class="askpic_01"></image>
+  <!--不清楚自己的病-->
+  <view class="dimness">
+    <text class="dimness_t">不清楚自己的病到底该预约什么科 </text>
+  </view>
+  <image src="../../imgs/ask_02.png" class="askpic_02"></image>
+  <!--不清楚的内容-->
+  <view class="dim">
+    <text class="dim_t">
+      据易观数据调查，一大部分的患者和家属不了解自己的病症是该预约外科还是内科。
+    </text>
+    <text class="dim_t dim_t1">
+      <text class="num">84％</text>的二三线城市患者反映，在去上海就医前，
+    </text>
+
+    <text class="dim_t">只是认为自己需要看哪个科室，但不是很清楚，这</text>
+    <text class="dim_t dim_t2">
+      就造成了大部分到了上海看病时，需要转几个科后才找到专治医生。</text>
+  </view>
+
+  <!--排号专家周长-->
+  <view class="experts">
+    <text class="experts_t">排专家号的周期长 </text>
+  </view>
+ 
+  <!--周期统计-->
+  <view class="statistics">
+    <image src="../../imgs/ask_03.png" class="askpic_03"></image>
+
+    <view class="statistics_a">
+      <text class="statistics_at">
+    你相信吗？据易观数据统计，每月去上海看病的外地患者次数竟然有<text class="num1">1071万次</text>，上海三甲医院仅有37家，平均一位外地患者在三甲医院预约专家的周期为4周
+       
+      </text>
+
+    </view> 
+
+    <view class="statistics_b">
+
+      <text class="statistics_bt">
+
+        就医患 者众多，造成每一位患 者就诊需要等待一个多月时间，
+      </text>
+      <text class="statistics_bt l">不仅让患者不能及时的发现病因治疗，还会因为推迟使得病情恶化。</text>
+    </view>
+    <image src="../../imgs/ask_04.png" class="askpic_04"></image>
+  </view>
+
+  <!--问诊时间短-->
+  <view class="short">
+    <text class="short_t"> 医生问诊时间短</text>
+  </view>
+  <view class="fast">
+    <view class="fast_z">
+      <text class="fast_t">
+        医生为每位患者就诊时间<text class="c">不超过5分钟</text>，更有甚者3分钟诊疗一位患
+      </text>
+      <text class="fast_t f">者</text>
+    </view>
+      <image src="../../imgs/ask_05.png" class="askpic_05"></image>
+  </view>
+<!--项目重复时间多-->
+<view class="item">
+    <text class="item_t"> 患者检查项目重复多</text>
+  </view>
+  <image src="../../imgs/ask_06.png" class="askpic_06"></image>
+<view class="article">
+<text class="article_t">
+患者即使在其他医院检查过，有病历单和X光片等材料，但是同样在上海三甲医院需检查一次，不但提高了看病的费用， 还需再排队，增加了
+看病的时间和精力
+</text>
+</view>
+<view class="article_b">
+<text class="article_bt">
+另外据易观数据显示，每年上海三甲医院的床
+位使用率为100％。这意味着在上海看病后没　
+有办法住院，来回的奔波更是让患者痛不欲生。
+</text>
+</view>
+<!--看病费用高-->
+<view class="cost">
+    <text class="cost_t">看病费用高</text>
+  </view>
+  <view class="expense"> 
+  <text class="expense_t">
+    二三线城市患者去上海看病所需的费用大约
+    这些种种原因导致二三线城市患者不仅看病  
+    艰难重重，付出钱财和精力，更为患者及家人
+    造成巨大的压力。
+  </text>
+   </view>
+   <image src="../../imgs/ask_07.png" class="akspic_07"></image>
+</view>

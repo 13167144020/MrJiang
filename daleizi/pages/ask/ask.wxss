@@ -1,0 +1,265 @@
+/*banner*/
+.ask{
+  background-color: #ffffff;
+}
+.askpic_01{
+  width: 750rpx;
+  height: 340rpx;
+}
+
+/*不清楚预约*/
+.dimness{
+  width: 606rpx;
+  height: 52rpx;
+  background-color: #2cd2ce;
+  border-radius: 8rpx;
+  margin-left: 72rpx;
+  padding-bottom: 20rpx;
+  margin-top: 66rpx;
+}
+.dimness_t{
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  padding-left: 72rpx;
+  font-family: PingFangSC;
+}
+.askpic_02{
+  width: 598rpx;
+  height: 77rpx;
+  display: block;
+  margin-left: 76rpx;
+  margin-top: 16rpx;
+}
+/*不清楚文字*/
+.dim{
+  width: 604rpx;
+  height: 269rpx;
+  /*background-color: rebeccapurple;*/
+  margin-left: 74rpx;
+}
+.dim_t{
+  font-size: 26rpx;
+  line-height: 48rpx;
+  color: #333333;
+  letter-spacing: 1rpx;
+ font-family: PingFangSC-Regular;
+}
+.dim_t1{
+  letter-spacing: 3rpx;
+}
+.num{
+  color: #f65c04;
+}
+.dim_t2{
+  letter-spacing: 4rpx;
+}
+/*排号专家周长*/
+.experts{
+  width: 606rpx;
+  height: 52rpx;
+  background-color: #2cd2ce;
+  border-radius: 8rpx;
+  margin-left: 72rpx;
+  margin-top: 111rpx;
+ 
+}
+.experts_t{
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  padding-left: 134rpx;
+  font-family: PingFangSC-Regular;
+  width: 338rpx;
+  letter-spacing: 13rpx;
+}
+/*周期统计*/
+.statistics{
+  width: 628rpx;
+  height: 610rpx;
+  /*background-color: rosybrown;*/
+  position: relative;
+  margin-left: 50rpx;
+}
+.askpic_03{
+  width: 234rpx;
+  height: 480rpx;
+  padding-top: 40rpx;
+}
+/*周期上面文字*/
+.statistics_a{
+width: 370rpx;
+/*background-color: blue;*/
+position: absolute;
+top: -15rpx;
+left: 250rpx;
+}
+.statistics_at{
+  font-size: 26rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC;
+  color: #333333;
+  letter-spacing: 1rpx;
+}
+.num1{
+  color: #f65c04;
+}
+/*周期下面的文字*/
+.statistics_b{
+width: 390rpx;
+/*background-color: blue;*/
+position: absolute;
+top: 275rpx;
+left: 250rpx;
+}
+.statistics_bt{
+  font-size: 26rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC;
+  color: #333333;
+  letter-spacing: 1rpx;
+}
+.l{
+  letter-spacing: 2rpx;
+}
+.askpic_04{
+  width: 216rpx;
+  height: 141rpx;
+  position: absolute;
+  top: 257rpx;
+  left: 440rpx;
+}
+
+/*问诊时间短*/
+.short{
+  width: 606rpx;
+  height: 52rpx;
+  background-color: #2cd2ce;
+  border-radius: 8rpx;
+  margin-left: 72rpx;
+  margin-top: 34rpx;
+ 
+}
+.short_t{
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  font-family: PingFangSC-Regular;
+  width: 290rpx;
+  letter-spacing: 11rpx;
+  padding-left: 158rpx;
+}
+.fast{
+  width: 606rpx;
+  height: 230rpx;
+  /*background-color: rebeccapurple;*/
+  position: relative;
+  margin-left: 78rpx;
+  margin-top: 40rpx;
+}
+.fast_z{
+
+width: 436rpx;
+height: 134rpx;
+/*background-color: red;*/
+}
+.fast_t{
+  font-size: 28rpx;
+  line-height: 48rpx;
+  letter-spacing: 1rpx;
+  color: #333333;
+font-family: PingFangSC-Regular;
+}
+.f{
+  margin-left: 392rpx;
+}
+.askpic_05{
+width: 107rpx;
+height: 156rpx;
+position: absolute;
+top: 0rpx;
+left: 471rpx;
+}
+.c{
+  color: #f65c04;
+}
+/*重复项目多*/
+.item{
+  width: 606rpx;
+  height: 52rpx;
+  background-color: #2cd2ce;
+  border-radius: 8rpx;
+  margin-left: 72rpx; 
+}
+.item_t{
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 13rpx;
+  padding-left: 114rpx;
+}
+.askpic_06{
+  width: 432rpx;
+  height: 119rpx;
+  margin-left: 155rpx;
+  margin-top: 42rpx;
+}
+.article{
+  width: 578rpx;
+  margin-left: 81rpx;
+}
+.article_t{
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: #333333;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 1rpx;
+}
+
+.article_b{
+  /*width: 578rpx;*/
+  margin-left: 81rpx;
+  /*background-color: rebeccapurple;*/
+}
+.article_bt{
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: #333333;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 1rpx;
+}
+/*看病费用高*/
+.cost{
+  width: 606rpx;
+  height: 52rpx;
+  background-color: #2cd2ce;
+  border-radius: 8rpx;
+  margin-left: 72rpx; 
+  margin-top: 53rpx;
+}
+.cost_t{
+  font-size: 30rpx;
+  line-height: 52rpx;
+  color: #ffffff;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 13rpx;
+  padding-left: 198rpx;
+}
+.expense{
+  width: 563rpx;
+  margin-left: 95rpx;
+}
+.expense_t{
+    font-size: 26rpx;
+  line-height: 36rpx;
+  color: #333333;
+  font-family: PingFangSC-Regular;
+  letter-spacing: 2rpx;
+}
+.akspic_07{
+  width: 126rpx;
+  height: 85rpx;
+  margin-left: 565rpx;
+  margin-top: 8rpx;
+}

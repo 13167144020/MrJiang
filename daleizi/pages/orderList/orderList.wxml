@@ -1,0 +1,52 @@
+
+<!--pages/orderList/orderList.wxml-->
+
+<!--预约列表状态-->
+<view class="title bb bt">
+  <text class="choose">当前预约</text>
+  <text>全部预约</text>
+</view>
+<view class="orderList">
+  <view class="doctorBg">
+    <view class="doctorInfo bb bt">
+      <image class="doctorPhoto" src="../../imgs/order_icon.png"></image>
+      <view class="textInfo">
+        <view class="infoOne">
+          <text class="doctorName">张杰</text>
+          <text class="doctorJob">福教书</text>
+        </view>
+        <view class="infoTwo">
+          <text class="doctorHospital">上海市华山医院</text>
+          <text class="doctordep">普外科</text>
+        </view>
+      </view>
+    </view>
+    <image class="arrows" src="../../imgs/arrows.png"></image>
+  </view>
+  <view class="orderState1 stateFont bb">
+    <text>正在视频会诊，您前面还有3人...</text>
+    <button class="modifyCase">修改简历</button>
+  </view>
+  <view class="orderState1 stateFont bb">
+    <text>等待专家确认接单...</text>
+    <button class="modifyCase">修改简历</button>
+  </view>
+  <view class="orderState1 stateFont bb">
+    <text>4月5日 10：00开始视频</text>
+    <button class="modifyCase">修改简历</button>
+  </view>
+  <view class="orderState1 stateFont bb">
+    <view class="dif">
+      <text>剩余支付时间：28分18秒</text>
+      <button class="modifyCase outDate">修改简历</button>
+    </view>
+    <button class="payBtn">立即支付</button>
+  </view>
+  <view class="orderState1 stateFont bb">
+    <view class="dif">
+      <text>预约已过期</text>
+      <button class="modifyCase outDate">修改简历</button>
+    </view>
+    <button class="payBtn">查看退款</button>
+  </view>
+</view>

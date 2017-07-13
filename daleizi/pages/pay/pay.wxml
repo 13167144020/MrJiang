@@ -1,0 +1,62 @@
+
+<!--pages/pay/pay.wxml-->
+
+<!--医生信息-->
+<view class="doctorBg">
+  <view class="doctorInfo bb bt">
+    <image class="doctorPhoto" src="../../imgs/order_icon.png"></image>
+    <view class="textInfo">
+      <view class="infoOne">
+        <text class="doctorName">张杰</text>
+        <text class="doctorJob">福教书</text>
+      </view>
+      <view class="infoTwo">
+        <text class="doctorHospital">上海市华山医院</text>
+        <text class="doctordep">普外科</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--支付信息-->
+<view class="orderNum">
+  <view class="orderItem bt bb">
+    <view class="items bb">
+      <text>服务金额</text>
+      <text class="numMoney">¥500</text>
+    </view>
+    <view class="items bb">
+      <text>服务类型</text>
+      <text class="fr">专家视频咨询</text>
+    </view>
+    <view class="items">
+      <text>服务机构</text>
+      <text class="fr">上海华山医院</text>
+    </view>
+  </view>
+</view>
+
+<!--支付方式-->
+<view class="payRoute">
+  <view class="route bb bt">
+    <view class="fl">
+      <image src="../../imgs/wx.png "></image>
+      <view>
+        <text>微信支付</text>
+        <text class="tip">推荐安装微信5.0以上版本支付</text>
+      </view>
+    </view>
+    <label></label>
+  </view>
+  <view class="route bb">
+    <view class="fl">
+      <image src="../../imgs/zfb.png "></image>
+      <view>
+        <text>支付宝支付</text>
+        <text class="tip">打开支付宝，快捷支付</text>
+      </view>
+    </view>
+    <image src="../../imgs/choose.png"></image>
+  </view>
+</view>
+<button>确认支付</button>

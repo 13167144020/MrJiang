@@ -1,0 +1,55 @@
+<!--banner-->
+
+<view class="query">
+<image src="../../imgs/query_pic.png" class="pic"></image>
+<!--医生是本人吗-->
+<view class="query_1">
+<text class="text_01">视频医生是医生本人吗？</text>
+</view>
+<view class="info_t">
+<text class="info">视频是比文字、语音更强调真实性的交流方式，您可以通过与医院官网参照来确定是否为本人，并且通过与专家互动确定为本人操作，非录制好的。</text>
+</view>
+
+<!--平台-->
+<view class="query_1" style=" margin-top: 57rpx;">
+<text class="text_01"  style=" padding-left: 108rpx;">平台能给推荐合适的医生吗？</text>
+</view>
+<view class="info_t " style="width:601rpx;">
+<text class="info" style="letter-spacing: 2rpx;">【有医靠】平台拥有5000名北上广三甲医院专家名医，几乎涵盖所有科室。如您没有指定的专家就诊，有医靠会为您合理推荐相应的专家以供选择。</text>
+</view>
+<!--门诊贵-->
+<view class="query_1" style=" margin-top: 23rpx;">
+<text class="text_01" style=" padding-left: 77rpx;" >为什么比门诊挂号费贵这么多呢？</text>
+</view>
+<view class="info_t " style="width:601rpx;">
+<text class="info" style="letter-spacing: 1rpx;">生病时每个人都想尽早看到最信任的专家，但是专家需要拿出自己的休息时间来就诊，本身已是付出额外的精力，另外北上广三甲医院专家号确实要比普通号贵很多，同时综合计算线下异地就医所需的费用，精力和消耗的时间，还是会划算很多。</text>
+</view>
+<!--视频清楚-->
+<view class="query_1" style=" margin-top: 35rpx;">
+<text class="text_01" style=" padding-left: 171rpx;" >视频能看的清楚吗？</text>
+</view>
+<view class="info_t " style="width:601rpx;">
+<text class="info" style="letter-spacing: 2rpx;">随着智能手机的普及，4G网络及WiFi的覆盖，网络视频可以实现无障碍交流。像素，视频的清晰度也因为iphone，三星等一众手机不断迭代变得更好。并且在视频问诊开始前，人工客服会和用户进行测试，确保网络、环境、灯光、手机等适合就诊。不会让用户花冤枉钱。</text>
+</view>
+<!--检查配药-->
+<view class="query_1" style=" margin-top: 41rpx;">
+<text class="text_01" style=" padding-left: 77rpx;" >若需门诊挂号检查或配药怎么办？</text>
+</view>
+<view class="info_t " style="width:601rpx;">
+<text class="info" style="letter-spacing: 1rpx;">【有医靠】平台没有门诊挂号服务，当与专家视频时，可直接咨询，专家会根据情况加时诊疗；如医生建议使用药物，患者可记录下来到当地医院、药房或网上购买，如遇任何问题可找【有医靠】客服咨询。</text>
+</view>
+<!--退款-->
+<view class="query_1" style=" margin-top: 37rpx;">
+<text class="text_01" style=" padding-left: 61rpx;" >规定时间内没有服务是否可以退款？</text>
+</view>
+<view class="info_t " style="width:601rpx;">
+<text class="info" style="letter-spacing: 1rpx;">当然可以，如已预约的专家没有在约定的时间内为您就诊，您的就诊费用我们将会全额退还给您。</text>
+</view>
+<!--准备-->
+<view class="query_1" style=" margin-top: 70rpx;">
+<text class="text_01" style=" padding-left: 124rpx;" >视频开始前要做哪些准备？</text>
+</view>
+<view class="info_t " style="width:601rpx;padding-bottom: 100rpx;">
+<text class="info" style="letter-spacing: 1rpx;">在视频开始之前，都可以点击“添加病历”继续上传和不断修改。病历信息越详细，医生了解的病情越全面。另外准备一张纸，整理好问题；一支笔，视频时可记录医生建议；一杯茶，放松心情，就像跟朋友聊天一样。</text>
+</view>
+</view>

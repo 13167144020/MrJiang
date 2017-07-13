@@ -1,0 +1,77 @@
+<!--医生详细信息-->
+<view class="doctorDetail">
+    <!--医生信息-->
+    <view class="detail">
+        <view class="info">
+            <view>
+                <view class="head">
+                    <image src="../../imgs/default_doctor.png" class="headPic"></image>
+                </view>
+            </view>
+            <view class="infoTxt">
+                <text class="doctorName">石小军</text>  
+                <text class="physician">副主任医师</text>
+                <text class="hospital">复旦大学附属华山医院<text class="hospitalLine">|</text>外科</text> 
+                <text class="activeTime">最近活跃：9分钟前</text> 
+            </view>
+        </view>
+        <view class="service">
+            <view class="serviceTxt">
+                <text class="nmb">23</text>
+                <text class="nmbTitle">等待服务／人</text>
+                <text class="nmbline">|</text>
+            </view>
+            <view class="serviceTxt">
+                <text class="nmb">40</text>
+                <text class="nmbTitle">已服务／人</text>
+                <text class="nmbline">|</text>
+            </view>
+            <view class="serviceTxt">
+                <text class="nmb">1</text>
+                <text class="nmbTitle">响应时间／天</text>
+            </view>
+        </view>
+    </view>
+    <!--价格-->
+    <view class="price">
+        <view class="consultingFee"><text class="red">￥</text><text class="money">56</text>元／咨询</view> 
+        <view class="btn">
+            <image src="../../imgs/video_icons.png" class="btnIcon"></image>
+            <text class="btnTect">立即预约咨询</text>
+        </view>   
+    </view>
+    <!--有医靠咨询优点及注意事项-->
+    <view class="advantage">
+        <view class="sendBack">
+            <image src="../../imgs/mony_icons.png" class="sendBackIcon"></image>
+            <text class="advantageTxt">可退还</text>
+        </view>
+        <text class="advantageLine">|</text>
+        <view class="noLimit">
+            <image src="../../imgs/time_icons.png" class="noLimitIcon"></image>
+            <text class="advantageTxt">不限时</text>
+        </view>
+    </view>
+    <text class="advantageOne">1. 预约后，专家会在2-3日内确定会诊时间，若未接单平台将退还您咨询费用。</text>
+    <text class="advantageTwo">2. 视频服务不限时长，若错过会诊请联系平台客服，根据情况退还部分款项。</text>
+</view>
+<!--专家简历-->
+<view class="curriculumvVitae">
+    <view class="cv_title">专家简历</view>
+    <view class="cv_info">
+        <!--视频-->
+        <video src="https://v.qq.com/x/page/h0327dc036v.html"   controls ></video>
+        <!--专家擅长-->
+        <view class="content">
+            <view class="contentTitle">专家擅长</view>
+            <text class="contentText">中枢神经系统肿瘤、血管病变、先天性病变、外伤等诊治；微侵袭外科、导航外科、显微神经外科等技术研究和应用。</text>
+            <text class="contentText">中枢神经系统肿瘤、血管病变、先天性病变、外伤等诊治；微侵袭外科、导航外科、显微神经外科等技术研究和应用。</text>
+        </view>
+        <!--专家简介-->
+        <view class="content">
+            <view class="contentTitle">专家简介</view>
+            <text class="contentText">1965年毕业于上海第一医学院（复旦大学上海医学院前身）。中国工程院院士，神经外科教授，博士研究生导师.</text>
+            <text class="contentText">现任复旦大学神经外科研究所所长、复旦大学上海医学院华山医院神经外科主任、上海华山神外（集团）研究所所长、上海神经外科临床医学中心和上海神经外科急救中心主任。任国外多本杂志审稿专家。</text>
+        </view>
+    </view>
+</view>

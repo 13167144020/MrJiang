@@ -1,0 +1,28 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+
+    <view class="loginGray"></view>
+
+    <!-- 动态登录 -->
+    <view class="loginInfo">
+        <view class="loginDefault">
+            <view class="ub">
+                <text class="loginText">手机号码</text>
+                <view class="loginInput ub-f1">
+                    <input placeholder="请输入手机号" placeholder-class="input-placeholder" type="number" maxlength="11" bindblur="usernameBlur" />
+                </view>
+            </view>
+        </view>
+        <view class="loginDefault">
+            <view class="ub">
+                <text class="loginText">验证码</text>
+                <view class="loginInput ub-f1">
+                    <input placeholder="请输入4位验证码" placeholder-class="input-placeholder" type="number" bindinput="codeInput"  />
+                </view>
+                <view class="loginCode" bindtap="getCode">{{codename}}</view>
+            </view>
+        </view>
+        <button class="loginBtn" bindtap="login">立即登录</button>
+    </view>
+
+</view>
